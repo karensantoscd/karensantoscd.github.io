@@ -1,0 +1,1055 @@
+/* CSS Document */
+*{
+    box-sizing: border-box;
+    margin: 0px; 
+	padding: 0px;
+}
+
+#contenedor {background: #FFFFFF;
+	width: 1200px; 
+	margin: auto;
+	}
+
+@font-face {
+    font-family: 'Subtitulo';
+    src: url('./fonts/KGWhatATime.ttf') format('truetype'); 
+    }   
+@font-face {
+    font-family: 'Titulo'; 
+    src: url("./Fonts/Vonique\ 64.ttf") format('truetype'); ;
+}   
+@font-face {
+    font-family: 'Texto';
+    src: url("./Fonts/PoiretOne-Regular.ttf") format('truetype'); ;
+ }  
+
+
+
+.header {
+    position: fixed;
+    left: 660px;
+	top: 20px;
+    background-color: #E9311A ;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+    width: 700px;
+    padding: 10px 10px;
+    z-index: 999;
+}
+
+.header .logo {
+    cursor: pointer;
+    position: relative;
+    right: 490px;
+}
+
+.header .logo img {
+    height: 50px;
+    width: auto; 
+    transition: all 0.3s;     
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .nav-links a{
+    font-family: 'Titulo';
+    font-size: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav-links li a:hover {
+    color: #4E639E;
+}
+
+.header .btn button {
+    margin-left: 20px;
+    font-family: "Subtitulo";
+    font-size: 20px;
+    font-weight: 700;
+    color: #026C80;
+    padding: 10px 25px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+    background-color: #B3D3D8;
+    color: #E9311A;
+    transform: scale(1.1);
+}
+
+
+#pagina1 {background: #FFFFFF;
+	height: 760px;}
+
+#pagina1 img {width: 1200px;}
+
+#pagina1 {width: 1200px;
+    margin: auto;
+    height: auto;
+    overflow: hidden;}
+    
+#pagina1 ul {
+        list-style: none;
+        width: 7200px;
+        display: flex;
+        animation: slide 15s infinite; 
+    }
+    
+@keyframes slide {
+    0%, 100% {
+        margin-left: 0; /* Imagen 1 */
+        }
+    16.66% {
+        margin-left: -1200px; /* Imagen 2 */
+        }
+    33.33% { 
+         margin-left: -2400px; /* Imagen 3 */
+    }
+    50% {
+        margin-left: -3600px; /* Imagen 4 */
+     }
+    66.66% {
+        margin-left: -4800px; /* Imagen 5 */
+    }
+    83.33% {
+        margin-left: -6000px; /* Imagen 6 */
+    }
+}
+
+article {
+    width: 1200px;
+    height: 760px;
+}
+
+.iconos img {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 40px; 
+    position: relative;
+    top: -500px;
+    transition: transform 0.3s;
+  }
+  .iconos a:hover img {
+    transform: scale(1.2);
+  }
+
+  .iconos .in {
+    position: relative;
+    top: -550px;
+    left: 1100px;
+}
+
+.iconos .ig {
+    position: relative;
+    top: -450px;
+    left: 1100px;
+}
+
+.iconos .what {
+    position: relative;
+    top: -350px;
+    left: 1100px;
+}
+
+ .iconos a:hover {
+    transform: scale(1.2);
+ } 
+
+ .eslogan {
+    background-color: #026C80;
+    border: 0px;
+    width: 550px;
+    height: 100px;
+    margin: 0px;
+    position: relative;
+    top: -400px;
+    left: 345px;
+    color: #FFFFFF;
+ }
+
+ .eslogan h3 {
+    font-family: 'Subtitulo';
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    font-style: normal;
+    font-weight: normal;
+ }   */
+
+ #pagina2 {background: #FFFFFF;
+	height: 760px;
+	}
+
+#pagina2 h1 {
+    font-family:"Titulo";
+	font-size: 40px;
+	padding-top: 130px;
+	color: #E9311A;
+}
+
+.cajatxt {
+	margin-top: 20px;
+	font-family: "Texto";
+	font-size: 30px;
+	color: #026C80;
+	display: flex;
+	text-align: justify;
+	width: 600px;}
+
+.Img2 {width: 500px;
+	height: 500px;
+	position: relative;
+	left: 680px;
+	top: -480px;
+	float: left;
+	margin-right: 10px;}
+
+
+#pagina3 {background: #ED6335;
+    height: 760px;}
+    
+  #pagina3 .titulo2 {
+        background-color: #ffffff;
+        border: 0px;
+        width: 550px;
+        height: 80px;
+        margin: 0px;
+        position: absolute;
+        top: 1610px;
+        left: 0;
+     }
+        
+    .titulo2 h1 {
+        font-family: 'Subtitulo';
+        font-size: 50px;
+        color: #026C80;
+        position: absolute;
+        top: 38px;
+        left: 655px;
+        text-align: center;
+        line-height: -0px;
+        font-style: normal;
+        font-weight: normal;
+     }
+    
+    #pagina3 .retratos {
+        width: 200px;
+        height: 300px;
+        overflow: hidden;
+        position: absolute;
+        left: 250px ;
+        top: 1750px;
+    }
+    
+    #pagina3 .retratos ul {
+        list-style: none;
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        animation: slideRetratos 20s infinite alternate;}
+        @keyframes slideRetratos {0%{margin-left: opx;}
+        20% {margin-left: 0px;}
+        25% {margin-left: -200px;}
+        45% {margin-left: -200px;}
+        50% {margin-left: -400px;}
+        70% {margin-left: -400px;}
+    }
+
+    .text1 {
+        display: block;
+        visibility: visible;
+    }
+
+   .text1 h3 {
+        font-family: 'Titulo';
+        font-size: 20px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 300px ;
+        top: 2065px;
+    }
+
+    .text1 p {
+        font-family: 'Texto';
+        font-size: 20px;
+        text-align: center;
+        width: 200px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 250px ;
+        top: 2090px;
+    }
+
+    .text1 button {
+        position: absolute;
+        left: 305px ;
+        top: 2150px;
+        background-color: #FFFFFF;
+        color: #026C80;
+        font-family: 'Subtitulo';
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+}
+    
+.text1 button:hover {
+    background-color: #B3D3D8;
+}
+ 
+    #pagina3 .ilustraciones {
+        width: 200px;
+        height: 300px;
+        overflow: hidden;
+        position: absolute;
+        left: 530px;
+        top: 1750px;
+    }
+    
+    #pagina3 .ilustraciones ul {
+        list-style: none;
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        animation: slideIlustraciones 20s infinite alternate;}
+        @keyframes slideIlustraciones {0%{margin-left: opx;}
+        20% {margin-left: 0px;}
+        25% {margin-left: -200px;}
+        45% {margin-left: -200px;}
+        50% {margin-left: -400px;}
+        70% {margin-left: -400px;}
+    
+    }
+
+    .text2 h3 {
+        font-family: 'Titulo';
+        font-size: 20px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 550px ;
+        top: 2065px;
+    }
+
+    .text2 p {
+        font-family: 'Texto';
+        font-size: 20px;
+        text-align: center;
+        width: 200px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 530px ;
+        top: 2090px;
+    }
+
+    .text2 button {
+        position: absolute;
+        left: 585px ;
+        top: 2150px;
+        background-color: #FFFFFF;
+        color: #026C80;
+        font-family: 'Subtitulo';
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+}
+
+.text2 button:hover {
+    background-color: #B3D3D8;
+}
+    
+    #pagina3 .animaciones {
+        position: absolute;
+        left: 820px;
+        top: 1710px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .text3 h3 {
+        font-family: 'Titulo';
+        font-size: 20px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 970px ;
+        top: 2065px;
+    }
+
+    .text3 p {
+        font-family: 'Texto';
+        font-size: 20px;
+        text-align: center;
+        width: 200px;
+        color: #FFFFFF;
+        position: absolute;
+        left: 940px ;
+        top: 2090px;
+    }
+
+    .text3 button {
+        position: absolute;
+        left: 995px ;
+        top: 2150px;
+        background-color: #FFFFFF;
+        color: #026C80;
+        font-family: 'Subtitulo';
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+}
+
+.text3 button:hover {
+    background-color: #B3D3D8;
+}
+    
+    #pagina3 .animaciones, 
+    #pagina3 .ilustraciones, 
+    #pagina3 .retratos {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    #pagina3 .animaciones img {
+        width: 500px; 
+        height: 300px; 
+    }
+    
+    
+    
+ #pagina4 {background: #FFFFFF;
+    height: 760px;}
+
+    #pagina4 h1 {
+        font-family:"Titulo";
+        font-size: 40px;
+        color: #026C80;
+        position: absolute;
+        left: 600px;
+        top: 2380px;
+    }
+
+    #pagina4 .mensaje {
+        position: absolute;
+        top: 2480px;
+        left: 240px;
+        width: 50px;
+    }
+
+    #pagina4 .correo{
+        position: absolute;
+        top: 2480px;
+        left: 300px;
+        font-family:"Subtitulo";
+        font-size: 25px;
+        color: #E9311A;
+        text-decoration: none;
+    }
+
+    #pagina4 .mapa {
+        position: absolute;
+        top: 2540px;
+        left: 240px;
+    }
+
+    .formulario{
+        width: 400px;
+        position: absolute;
+        top: 2480px;
+        left: 685px;
+        border-radius: 0px;
+}
+
+.controls {
+    width: 100%;
+    background: #bbc3da;
+    padding: 10px;
+    border-radius: 0px;
+    margin-bottom: 16px;
+    border: 1px solid #bbc3da;
+    font-family: 'Texto';
+    font-size: 25px;
+    color: #FFFFFF;
+  }
+
+  #mensaje {
+    color: #FFFFFF;
+    height: 170px;
+
+  }
+
+  .formulario .botons {
+    width: 100%;
+    background: #026C80;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 25px;
+    font-family: 'Subtitulo';
+    cursor: pointer;
+    transition: background-color 0.3s ease; transform 0.3s ease;
+
+  }
+
+  .formulario .botons:hover {
+    transform: scale(1.1);
+    background-color: #B3D3D8;
+ }
+
+
+.anuncio button {
+    position: absolute;
+    left: 240px ;
+    top: 2930px;
+    background-color: #bbc3da;
+    color: #FFFFFF;
+    font-family: 'Subtitulo';
+    border: none;
+    padding: 10px 460px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.anuncio button:hover {
+background-color: #B3D3D8;
+}
+
+.pie-pagina{
+    width: 1200px;
+    background-color: #E9311A;
+    position: absolute;
+    left: 160px;
+}
+
+.pie-pagina .caja1 {
+    width: 100px;
+    padding: 20px;
+    position: relative;
+    left: 70px;
+}
+
+.pie-pagina .caja2 {
+    width: 500px;
+    padding: 20px;
+    position: absolute;
+    top: 5px;
+    left: 260px;
+}
+
+.pie-pagina .caja2 h2 {
+    font-family: 'Titulo';
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.pie-pagina .caja2 p {
+    font-family: 'Texto';
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.pie-pagina .caja3 {
+    padding: 20px;
+    position: absolute;
+    top: 5px;
+    left: 820px;
+}
+
+.pie-pagina .caja3 h2 {
+    font-family: 'Titulo';
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+
+.red-social img {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 40px; 
+    position: relative;
+    top: -500px;
+    transition: transform 0.3s;
+  }
+  .red-social a:hover img {
+    transform: scale(1.2);
+  }
+
+  .red-social .in2 {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+}
+
+.red-social .ig2 {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+
+.red-social .what2 {
+    position: absolute;
+    top: 60px;
+    left: 170px;
+}
+
+ .red-social a:hover {
+    transform: scale(1.2);
+ }
+
+.pie-pagina .grupo-2{
+    background-color: #ED6335;
+    padding: 15px 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pie-pagina .grupo-2 small{
+    font-family: 'Subtitulo';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 0px;
+}
+
+#imgpie {width: 40px;
+	position: absolute;
+	left: 1090px;
+    top: 65px;
+	margin: 0px;
+    transition: transform 0.3s;
+}
+#imgpie:hover {
+  transform: scale(1.1);
+}
+
+/* Estilos para tablets */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    #contenedor {
+      width: 100%;
+    }
+
+    .header {
+        width: 90%;
+      }
+    
+      .header .logo {
+        right: auto;
+      }
+    
+      .header .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+    
+      .header .nav-links li {
+        display: inline-block;
+        padding: 0 20px;
+      }
+    
+      .header .nav-links li:hover {
+        transform: scale(1.1);
+      }
+    
+      .header .nav-links li a:hover {
+        color: #4E639E;
+      }
+    
+      .header .btn {
+        display: block;
+      }
+
+      #pagina1 {
+        background: #FFFFFF;
+        height: 760px;
+        width: 80%; /* Ajusta el ancho según tu preferencia */
+        margin: auto;
+        overflow: hidden;
+      }
+      
+      #pagina1 img {
+        width: 100%;
+        height: auto;
+      }
+      
+      #pagina1 ul {
+        list-style: none;
+        width: 600%;
+        display: flex;
+        animation: slide 15s infinite;
+      }
+      
+      @keyframes slide {
+        0%, 100% {
+          margin-left: 0; /* Imagen 1 */
+        }
+        16.66% {
+          margin-left: -100%; /* Imagen 2 */
+        }
+        33.33% {
+          margin-left: -200%; /* Imagen 3 */
+        }
+        50% {
+          margin-left: -300%; /* Imagen 4 */
+        }
+        66.66% {
+          margin-left: -400%; /* Imagen 5 */
+        }
+        83.33% {
+          margin-left: -500%; /* Imagen 6 */
+        }
+      }
+      
+      article {
+        width: 100%;
+        height: 760px;
+      }
+      
+      .iconos img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40px;
+        position: relative;
+        top: -500px;
+        transition: transform 0.3s;
+      }
+      
+      .iconos a:hover img {
+        transform: scale(1.2);
+      }
+      
+      .iconos .in {
+        position: relative;
+        top: -550px;
+        left: 80%; /* Ajusta la posición según tu preferencia */
+      }
+      
+      .iconos .ig {
+        position: relative;
+        top: -450px;
+        left: 80%; /* Ajusta la posición según tu preferencia */
+      }
+      
+      .iconos .what {
+        position: relative;
+        top: -350px;
+        left: 80%; /* Ajusta la posición según tu preferencia */
+      }
+      
+      .iconos a:hover {
+        transform: scale(1.2);
+      }
+      
+      .eslogan {
+        background-color: #026C80;
+        border: 0px;
+        width: 60%; /* Ajusta el ancho según tu preferencia */
+        height: 100px;
+        margin: 0 auto;
+        position: relative;
+        top: -400px;
+        text-align: center;
+        color: #FFFFFF;
+      }
+      
+      .eslogan h3 {
+        font-family: 'Subtitulo';
+        font-size: 24px; /* Ajusta el tamaño según tu preferencia */
+        line-height: 100px;
+        font-style: normal;
+        font-weight: normal;
+      }
+
+      #pagina2 {
+        background: #FFFFFF;
+        height: 760px;
+      }
+      
+      #pagina2 h1 {
+        font-family: "Titulo";
+        font-size: 30px; /* Ajusta el tamaño según tu preferencia */
+        padding-top: 100px; /* Ajusta el espacio superior según tu preferencia */
+        color: #E9311A;
+      }
+      
+      .cajatxt {
+        margin-top: 20px;
+        font-family: "Texto";
+        font-size: 24px; /* Ajusta el tamaño según tu preferencia */
+        color: #026C80;
+        text-align: justify;
+        max-width: 600px; /* Ajusta el ancho máximo según tu preferencia */
+        margin: 0 auto; /* Centrar el contenido */
+      }
+      
+      .Img2 {
+        width: 400px; /* Ajusta el ancho según tu preferencia */
+        height: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%); /* Centrar horizontalmente */
+        top: -400px;
+        margin-right: 10px;
+      }
+      
+      #pagina3 {
+        background: #ED6335;
+        height: 760px;
+      }
+      
+      #pagina3 .titulo2 {
+        background-color: #ffffff;
+        border: 0px;
+        width: 550px;
+        height: 80px;
+        margin: 0 auto; /* Centrar horizontalmente */
+        position: relative;
+        top: 50px; /* Ajusta la posición vertical según tu preferencia */
+      }
+      
+      .titulo2 h1 {
+        font-family: 'Subtitulo';
+        font-size: 40px; /* Ajusta el tamaño según tu preferencia */
+        color: #026C80;
+        text-align: center;
+        line-height: 80px;
+        font-style: normal;
+        font-weight: normal;
+      }
+      
+      #pagina3 .retratos,
+      #pagina3 .ilustraciones,
+      #pagina3 .animaciones {
+        width: 200px;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        top: 100px; /* Ajusta la posición vertical según tu preferencia */
+        margin: 0 auto; /* Centrar horizontalmente */
+      }
+      
+      #pagina3 .retratos ul,
+      #pagina3 .ilustraciones ul,
+      #pagina3 .animaciones img {
+        list-style: none;
+        width: 900px;
+        display: flex;
+        flex-wrap: wrap;
+        animation: slideRetratos 20s infinite alternate;
+      }
+    
+      #pagina4 {
+        background: #FFFFFF;
+        height: auto; /* Adjust the height to be auto for content-based height */
+    }
+    
+    #pagina4 h1 {
+        font-family: "Titulo";
+        font-size: 32px; /* Decrease the font size for tablets */
+        color: #026C80;
+        position: relative; /* Change to relative positioning */
+        left: 0; /* Adjust positioning */
+        top: 0; /* Adjust positioning */
+    }
+    
+    #pagina4 .mensaje,
+    #pagina4 .correo {
+        position: relative; /* Change to relative positioning */
+        top: 0; /* Adjust positioning */
+        left: 0; /* Adjust positioning */
+        width: auto; /* Adjust width to be auto */
+    }
+    
+    #pagina4 .correo {
+        font-size: 20px; /* Decrease font size for tablets */
+    }
+    
+    #pagina4 .mapa {
+        position: relative; /* Change to relative positioning */
+        top: 0; /* Adjust positioning */
+        left: 0; /* Adjust positioning */
+    }
+    
+    .formulario {
+        width: 100%; /* Adjust width to 100% */
+        position: relative; /* Change to relative positioning */
+        top: 0; /* Adjust positioning */
+        left: 0; /* Adjust positioning */
+    }
+    
+    .controls {
+        width: 100%;
+        background: #bbc3da;
+        padding: 10px;
+        border-radius: 0px;
+        margin-bottom: 16px;
+        border: 1px solid #bbc3da;
+        font-family: 'Texto';
+        font-size: 20px; /* Decrease font size for tablets */
+        color: #FFFFFF;
+    }
+    
+    #mensaje {
+        color: #FFFFFF;
+        height: 120px; /* Adjust height for tablets */
+    }
+    
+    .formulario .botons {
+        width: 100%;
+        background: #026C80;
+        border: none;
+        padding: 10px; /* Decrease padding */
+        color: white;
+        margin: 16px 0;
+        font-size: 20px; /* Decrease font size for tablets */
+        font-family: 'Subtitulo';
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease; /* Fix transition syntax */
+    }
+    
+    #pagina4 .anuncio {
+        margin: 0;
+        position: relative; /* Change to relative positioning */
+        top: 0; /* Adjust positioning */
+        right: 0; /* Adjust positioning */
+        width: 100%; /* Adjust width to 100% */
+    }
+    
+    .anuncio h1 {
+        font-family: 'Texto';
+        font-size: 40px; /* Decrease font size for tablets */
+        color: #FFFFFF;
+        display: block; /* Change to block display */
+        padding: 10px; /* Adjust padding */
+        background-color: #4E639E;
+        animation: moverTexto 5s linear infinite;
+    }
+    
+    .pie-pagina {
+        width: 100%; /* Adjust width to 100% */
+        background-color: #E9311A;
+        position: relative; /* Change to relative positioning */
+        left: 0; /* Adjust positioning */
+    }
+
+    .pie-pagina .caja1 {
+        width: 100px;
+        padding: 10px; /* Adjust padding */
+        position: relative; /* Change to relative positioning */
+        left: 0; /* Adjust positioning */
+    }
+    
+    .pie-pagina .caja2 {
+        width: 100%; /* Adjust width to 100% */
+        padding: 10px; /* Adjust padding */
+        position: relative; /* Change to relative positioning */
+        top: 0; /* Adjust positioning */
+        left: 0; /* Adjust positioning */
+    }
+    
+    .pie-pagina .caja2 h2 {
+        font-family: 'Titulo';
+        font-size: 20px; /* Decrease font size for tablets */
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    
+    .pie-pagina .caja2 p {
+        font-family: 'Texto';
+        font-size: 14px; /* Decrease font size for tablets */
+        color: #FFFFFF;
+    }
+    
+    .pie-pagina .caja3 {
+        padding: 10px; /* Adjust padding */
+        position: relative; /* Change to relative positioning */
+        top: 0; /* Adjust positioning */
+        left: 0; /* Adjust positioning */
+    }
+    
+    .pie-pagina .caja3 h2 {
+        font-family: 'Titulo';
+        font-size: 20px; /* Decrease font size for tablets */
+        color: #FFFFFF;
+        font-weight: bold;
+        position: relative; /* Change to relative positioning */
+        top: 0; /* Adjust positioning */
+        left: 0; /* Adjust positioning */
+    }
+    
+    .red-social img {
+        width: 30px; /* Decrease width for tablets */
+        position: relative; /* Change to relative positioning */
+        top: 0; /* Adjust positioning */
+        transition: transform 0.3s;
+    }
+    
+    .pie-pagina .grupo-2 {
+        background-color: #ED6335;
+        padding: 10px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .pie-pagina .grupo-2 small {
+        font-family: 'Subtitulo';
+        font-size: 14px; /* Decrease font size for tablets */
+    }
+
+
+
+    }
+    
